@@ -19,6 +19,8 @@ namespace HW
             Console.WriteLine("Addition two numbers from array\n");
 
             array = fillArrayRandom(size, maxVal);
+            foreach(int a in array) Console.Write(a + " ");
+
 
             Console.WriteLine();
 
@@ -62,7 +64,6 @@ namespace HW
             for (int i = 0; i < size; i++)
             {
                 array[i] = rand.Next(maxVal);
-                Console.Write(array[i] + "-{0} ", i + " ");
             }
             return array;
         }
