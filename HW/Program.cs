@@ -8,6 +8,7 @@ namespace HW
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             const int size = 10;
